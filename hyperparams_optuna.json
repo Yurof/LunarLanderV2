@@ -1,0 +1,13 @@
+{
+    "batch_size": 32,
+    "n_steps": 2048,
+    "gamma": 0.9999,
+    "learning_rate": 0.0006322580522041642,
+    "gae_lambda": 0.9,
+    "n_epochs": 10,
+
+    "policy_kwargs":{
+        "net_arch":[{"vf":[64, 64], "pi":[64, 64]}],
+        "ortho_init": true
+    }
+}
